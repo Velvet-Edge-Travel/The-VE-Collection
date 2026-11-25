@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Speak with a The VE Collection travel designer and begin planning your private journey."
+    />
+    <title>Contact | The VE Collection</title>
+    <link rel="stylesheet" href="styles.css?v=gold-transparent" />
+  <link rel="stylesheet" href="experience.css?v=20261102b"></head>
+  <body class="enquiry-page"><a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="index.html"
+          ><img
+            class="brand__mark"
+            src="assets/brand/collection-mark.webp?v=gold-transparent"
+            alt=""
+            width="150"
+            height="56"
+          /><span class="brand__name">The VE Collection</span></a
+        ><button
+          class="nav-toggle" aria-controls="main-navigation"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <div class="nav__links" id="main-navigation"><a href="holidays.html">Find a holiday</a><a href="golf-packages.html">Golf journeys</a><a href="destinations.html">Destinations</a><a href="about.html">Our story</a><a href="holidays.html?saved=1">Saved <span data-saved-count>0</span></a><a class="nav__cta" href="contact.html">Plan my journey</a></div>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section
+        class="hero page-hero"
+        style="
+          --hero: url(assets/site/1510414842594-a61c69b5ae57.webp);
+        "
+      >
+        <div class="hero__content container">
+          <p class="eyebrow">Begin your journey</p>
+          <h1>Tell us what you are <span>dreaming of.</span></h1>
+          <p class="hero__copy">
+            A few details are all we need to start. Share your plans and review your enquiry before sending.
+          </p>
+        </div>
+      </section>
+      <section class="section section--sand">
+        <div class="contact-grid container">
+          <div data-reveal>
+            <p class="eyebrow">Speak with us</p>
+            <h2>It starts with a conversation.</h2>
+            <p class="lead">
+              Share your ideas using the enquiry form. No detail
+              is too small and no plan needs to be fully formed.
+            </p>
+            <div class="contact-details" data-company-contact hidden></div><div class="enquiry-aside"><h3>Your holiday, your way.</h3><ol><li>Tell us a little about your plans.</li><li>Review your travel brief.</li><li>Download a copy of your travel brief.</li></ol><p>No booking or payment is made here.</p><a href="holidays.html" class="text-link">Keep exploring</a></div></div><noscript><p>Enable JavaScript to prepare your travel brief.</p></noscript><form id="enquiry" class="form" data-enquiry-form data-reveal>
+            <p class="eyebrow">Travel enquiry</p>
+            <h3>Where shall we begin?</h3>
+            <nav class="enquiry-steps" aria-label="Enquiry progress"><span data-step-label="0">1 Your journey</span><span data-step-label="1">2 About you</span><span data-step-label="2">3 Review</span></nav><p class="form__note">Fields marked * are required. An idea is enough to get started.</p><section data-form-step="0"><h3>Your journey</h3><div class="selected-journey" data-selected-journey hidden></div><input type="hidden" name="holiday" value=""><div class="form__row"><div class="field"><label for="adults">Adults *</label><input id="adults" name="adults" type="number" min="1" max="40" value="2" required></div><div class="field"><label for="children">Children</label><input id="children" name="children" type="number" min="0" max="20" value="0"></div></div><div class="form__row">
+              <div class="field">
+                <label for="destination">Destination or region</label
+                ><input
+                  id="destination"
+                  name="destination"
+                  type="text"
+                  placeholder="Where are you considering?"
+                />
+              </div>
+              <div class="field">
+                <label for="travel-type">Journey type</label
+                ><select id="travel-type" name="travelType" data-travel-type>
+                  <option value="signature">Signature holiday</option>
+                  <option value="golf">Golf journey</option>
+                  <option value="honeymoon">Honeymoon</option>
+                  <option value="family">Family adventure</option>
+                  <option value="celebration">Celebration</option>
+                  <option value="unsure">Not sure yet</option>
+                </select>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="field">
+                <label for="when">When would you like to travel?</label
+                ><input
+                  id="when"
+                  name="when"
+                  type="text"
+                  placeholder="Month or preferred dates"
+                />
+              </div>
+              <div class="field">
+                <label for="budget">Budget preferences (optional)</label><input id="budget" name="budget" type="text" placeholder="Share a budget or leave it for our conversation">
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="field">
+                <label for="duration">Preferred duration</label
+                ><select id="duration" name="duration">
+                  <option value="">Please select</option>
+                  <option>1–2 nights</option><option>3–4 nights</option>
+                  <option>5–7 nights</option>
+                  <option>8–10 nights</option>
+                  <option>11–14 nights</option>
+                  <option>15 nights or more</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="departure-airport"
+                  >Preferred departure airport</label
+                ><input
+                  id="departure-airport"
+                  name="departureAirport"
+                  type="text"
+                  placeholder="For example, London Luton"
+                />
+              </div>
+            </div>
+
+            <details class="golf-disclosure"><summary>Golf preferences (optional) · Help us tailor your proposal</summary><fieldset class="golf-enquiry" data-golf-fields hidden>
+              <legend>
+                <span>Golf journey details</span>
+                <strong>Help us prepare an accurate golf proposal</strong>
+              </legend>
+              <p class="golf-enquiry__intro">
+                Tell us about the golfers, preferred rounds and hotel
+                arrangements. Fields marked are required for a golf enquiry.
+              </p>
+              <div class="form__row">
+                <div class="field">
+                  <label for="golfers">Number of golfers</label
+                  ><input
+                    id="golfers"
+                    name="golfers"
+                    type="number"
+                    min="1"
+                    max="40"
+                    inputmode="numeric"
+                    placeholder="2"
+                    
+                  />
+                </div>
+                <div class="field">
+                  <label for="non-golfers">Number of non-golfers</label
+                  ><input
+                    id="non-golfers"
+                    name="nonGolfers"
+                    type="number"
+                    min="0"
+                    max="40"
+                    inputmode="numeric"
+                    placeholder="0"
+                  />
+                </div>
+              </div>
+              <div class="field">
+                <label for="handicaps">Golf handicaps</label
+                ><input
+                  id="handicaps"
+                  name="handicaps"
+                  type="text"
+                  placeholder="List each golfer, for example: Golfer 1 – 12, Golfer 2 – 18"
+                  
+                />
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="rounds">Preferred number of rounds</label
+                  ><select id="rounds" name="rounds" ><option value="">Please select (optional)</option>
+                    <option value="">Please select</option>
+                    <option>1–2 rounds</option>
+                    <option>3 rounds</option>
+                    <option>4 rounds</option>
+                    <option>5 rounds</option>
+                    <option>6 or more rounds</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="tee-times">Preferred tee times</label
+                  ><select id="tee-times" name="teeTimes"><option value="">Please select (optional)</option>
+                    <option>No preference</option>
+                    <option>Early morning</option>
+                    <option>Mid-morning</option>
+                    <option>Afternoon</option>
+                    <option>Different times each day</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="courses">Preferred courses or golf region</label
+                ><textarea
+                  id="courses"
+                  name="courses"
+                  placeholder="Name any must-play courses, resorts or regions, or ask us to recommend them."
+                ></textarea>
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="golf-equipment">Golf equipment</label
+                  ><select id="golf-equipment" name="golfEquipment"><option value="">Please select (optional)</option>
+                    <option>Bringing own clubs</option>
+                    <option>Club hire required</option>
+                    <option>A mixture of own clubs and hire</option>
+                    <option>Not decided</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="course-extras">Course extras</label
+                  ><select id="course-extras" name="courseExtras"><option value="">Please select (optional)</option>
+                    <option>Buggies where available</option>
+                    <option>Walking rounds</option>
+                    <option>Caddies where available</option>
+                    <option>Recommend for each course</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="field">
+                  <label for="room-setup">Room arrangement</label
+                  ><select id="room-setup" name="roomSetup" ><option value="">Please select (optional)</option>
+                    <option value="">Please select</option>
+                    <option>One double room</option>
+                    <option>One twin room</option>
+                    <option>Single rooms for each guest</option>
+                    <option>Multiple twin rooms</option>
+                    <option>Mixed room requirements</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="board-basis">Preferred board basis</label
+                  ><select id="board-basis" name="boardBasis"><option value="">Please select (optional)</option>
+                    <option>Bed &amp; breakfast</option>
+                    <option>Half board</option>
+                    <option>Full board</option>
+                    <option>All inclusive</option>
+                    <option>No preference</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field">
+                <label for="golf-transfers">Golf and airport transfers</label
+                ><select id="golf-transfers" name="golfTransfers"><option value="">Please select (optional)</option>
+                  <option>Private transfers throughout</option>
+                  <option>Shared golf transfers are suitable</option>
+                  <option>Self-drive with car hire</option>
+                  <option>Please recommend</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="golf-notes">Golf trip requirements</label
+                ><textarea
+                  id="golf-notes"
+                  name="golfNotes"
+                  placeholder="Tell us about walking requirements, club-handling needs, coaching, competition formats, celebration dinners or anything else."
+                ></textarea>
+              </div>
+              <div class="field">
+                <label for="non-golfer-plans">Plans for non-golfers</label
+                ><textarea
+                  id="non-golfer-plans"
+                  name="nonGolferPlans"
+                  placeholder="Spa, sightseeing, beach time, dining or experiences required while others play."
+                ></textarea>
+              </div>
+            </fieldset></details>
+            <div class="field">
+              <label for="message">Tell us about your ideal journey</label
+              ><textarea
+                id="message"
+                name="message"
+                placeholder="Who is travelling, what do you love, and what would make this trip unforgettable?"
+              ></textarea>
+            </div>
+            </section><section data-form-step="1" hidden><h3>A little about you</h3><div class="form__row">
+              <div class="field">
+                <label for="first-name">First name *</label
+                ><input
+                  id="first-name"
+                  name="firstName"
+                  type="text"
+                  autocomplete="given-name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="last-name">Last name *</label
+                ><input
+                  id="last-name"
+                  name="lastName"
+                  type="text"
+                  autocomplete="family-name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="field">
+                <label for="email">Email *</label
+                ><input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="phone">Telephone</label
+                ><input id="phone" name="phone" type="tel" autocomplete="tel" />
+              </div>
+            </div>
+            <div class="field"><label for="contact-method">Preferred reply</label><select id="contact-method" name="contactMethod"><option>Email</option><option>Telephone</option></select></div><p class="form__note">Please leave a phone number if you prefer a call. Do not include payment, passport or sensitive medical details.</p></section><section data-form-step="2" hidden><h3>Your travel brief</h3><div data-enquiry-review></div><p>Your enquiry is a request for a personalised proposal, not a booking. Review your details before sending. Your information is only sent when you choose a delivery option below. Read our <a href="privacy.html">privacy policy</a> to understand how we use it.</p><label class="consent-check"><input type="checkbox" name="permissionToReply" required> I would like The VE Collection to contact me about this enquiry.</label></section><div class="enquiry-actions"><button type="button" class="quiet-button" data-step-back hidden>Back</button><button class="btn btn--dark" type="button" data-step-next>Continue</button><button class="btn btn--dark" type="submit" data-send-enquiry hidden>Send enquiry</button></div><button type="button" class="quiet-button" data-download-enquiry hidden>Download my enquiry</button>
+            <p class="form__note" data-delivery-note></p>
+            <div class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+          </form>
+        </div>
+      </section>
+      <section class="section">
+        <div class="narrow" data-reveal>
+          <p class="eyebrow">Already travelling?</p>
+          <h2>Our travellers are never alone.</h2>
+          <p class="lead">
+            If you are currently away and need assistance, use the 24-hour
+            support number in your travel documents for immediate help.
+          </p>
+        </div>
+      </section>
+    <section class="section section--sand" id="enquiry-information"><div class="narrow"><p class="eyebrow">Your enquiry</p><h2>Before you send.</h2><p>We ask for your contact details and travel preferences so we can discuss your holiday. You can download your travel brief or send it when enquiry delivery is available. No payment or booking is made here. Please do not include passport, payment or sensitive medical details.</p><p>Saved journeys store only holiday identifiers in this browser. Your enquiry details are not saved to browser storage. </p><p>For information about how we handle enquiries, read our <a href="privacy.html">privacy policy</a> and ask for the applicable booking conditions and protection details before confirming a booking.</p></div></section></main>
+    <footer class="site-footer">
+      <div class="footer__main container">
+        <div class="footer__about">
+          <a class="brand" href="index.html"
+            ><img loading="lazy"
+              class="brand__mark"
+              src="assets/brand/collection-mark.webp?v=gold-transparent"
+              alt=""
+              width="150"
+              height="56"
+            /><span class="brand__name">The VE Collection</span></a
+          >
+          <p>Exceptional private travel, thoughtfully designed in London.</p>
+        </div>
+        <div class="footer__column">
+          <h4>Explore</h4>
+          <a href="signature-holidays.html">Signature Holidays</a
+          ><a href="golf-packages.html">Golf Packages</a
+          ><a href="destinations.html">Destinations</a>
+        </div>
+        <div class="footer__column">
+          <h4>Company</h4>
+          <a href="about.html">About</a><a href="contact.html">Contact</a>
+        </div>
+        <div class="footer__column">
+          <h4>Concierge</h4>
+          <a href="contact.html">Plan a journey</a><a href="contact.html">Travel enquiries</a>
+        </div>
+      </div>
+      <div class="footer__bottom container">
+        <span>© <span data-year></span> <span class="collection-name">The VE Collection</span>.</span
+        ><span><a href="privacy.html">Privacy policy</a> · <a href="contact.html#enquiry-information">Enquiry information</a></span>
+      </div>
+    </footer>
+    <script src="site-config.js?v=20261102b"></script><script src="holidays-data.js?v=20261102b"></script><script src="script.js?v=20261102b"></script><script src="experience.js?v=20261102b"></script><script src="i18n-catalog.js?v=20261102b"></script><script src="i18n.js?v=20261102b"></script>
+  </body>
+</html>
