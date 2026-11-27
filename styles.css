@@ -2137,7 +2137,12 @@ h3 {
 
 /* Keep the new compact monogram legible in the existing header. */
 .brand { gap: 9px; }
-.brand__mark { height: 32px; }
+.brand__mark { width: 66px; height: 42px; flex-basis: 66px; }
+.brand__name { font-size: 1.25rem; }
+@media (max-width: 700px) {
+  .brand__mark { width: 54px; height: 36px; flex-basis: 54px; }
+  .brand__name { font-size: 1.04rem; }
+}
 
 /* The VE Collection wordmark */
 .brand__name, .site-footer .brand__name, .site-footer .footer__bottom .collection-name { color: #c7a35a; }
